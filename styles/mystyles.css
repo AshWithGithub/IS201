@@ -1,27 +1,64 @@
+
 body{
-    background-color: ghostwhite;
+    background-color: rgb(255, 255, 255);
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+h2{
+    color: rgb(79, 158, 237);
 }
 
-li {
-  float: left;
+h3{
+    color: rgb(79, 158, 237);
+    font-weight: 600;
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+ol{
+    color: gray;
+    font-weight:700;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-li a:hover {
-  background-color: #111;
+ul{
+    color: gray;
+    font-weight:lighter;
+    font-style: italic;
+}
+
+li{
+    color: gray;
+}
+
+.justify{
+    text-align: center;
+
+}
+
+.justifyleft{
+    text-align: left;
+}
+
+.resume{
+    color: rgb(79, 158, 237);
+}
+
+.intro{
+    color: gray;
+    font-weight:bold;
+}
+    
+.title{
+    font-family:monospace;
+    font-weight: bold;
+}
+
+.align{
+    text-align: left;
+    color: gray;
+    font-weight:bold;
+  }
+
+.aboutme {
+    color: rgb(218, 218, 218);
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }

@@ -1,4 +1,4 @@
-<!--Ashley Peterson 4/6/2022-->
+<!--Ashley Peterson 4/16/2022-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -15,13 +15,14 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="styles/styles.css" rel="stylesheet" />
-        <link href="mystyles/styles.css" rel="stylesheet" />
+        <link href="styles/mystyles.css" rel="stylesheet" />
+        
     </head>
     <body>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">Ashley Peterson</a>
+                <a class="navbar-brand">Ashley Peterson</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -29,21 +30,21 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="html/Education.html">Education</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="html/experience.html">Experience</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="html/skills.html">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="html/aboutme.html">About Me</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="html/tableau.html">Tableau</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('images/mountain.jpg')">
+        <header class="masthead" alt="Mountain" style="background-image: url('images/mountain.jpg')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="site-heading">
-                            <h1>Ashley Peterson</h1>
+                            <div class="title">
+                                <h1>Ashley Peterson</h1>
+                            </div>
                             <span class="subheading">A Student, Athlete, Novelist, and Songwriter</span>
                         </div>
                     </div>
@@ -51,41 +52,144 @@
             </div>
         </header>
         <!-- Main Content-->
+        <div class="justify resume">
+            <h1>Résumé</h1>
+            <div class="intro">
+                <p>Inquisitive and quick learning individual, with diverse experience and skills,
+                    <br>
+                    looking for an opportunity to make an impact
+                </p>
+            </div>
+        </div>
+
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <!-- Post preview-->
                     <div class="post-preview">
-                        <a href="post.html">
+                        <a>
                             <h2 class="post-title">Education</h2>
-                            <h3 class="post-subtitle">Accounting Major in Marriott School of Business</h3>
+                            <h3 class="post-subtitle">Brigham Young University - Accounting Major</h2>
                         </a>
                         <p class="post-meta">
-                            Posted by
-                            <a href="#!">Ashley Peterson</a>
-                            on April 4, 2022
+                            Provo, UT 2019 - Spring 2024
                         </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Experience</h2>
-                            <h3 class="post-subtitle">Marriott School of Business</h3>
+                        <li class="post-subtitle">
+                            Marriott School of Business
+                            <ul>
+                                Acc 200, Acc 310, Econ 110, Fin 201, Is 201
+                            </ul>
+                        </li>
+                        <a>
+                            <h3 class="post-subtitle">Bakersfield College</h2>
                         </a>
-                        
+                        <p class="post-meta">
+                            Bakersfield, CA 2018 - 2019
+                        </p>
+                        <li class="post-subtitle">
+                            Industrial Automation
+                            <ul>
+                                PLC, Kuka, Universal Robot, Electronics
+                            </ul>
+                        </li>
                     </div>
                     <!-- Divider-->
                     <hr class="my-4" />
                     <!-- Post preview-->
                     <div class="post-preview">
-                        <a href="post.html">
+                        <a>
+                            <h2 class="post-title">Work Experience</h2>
+                            <h3 class="post-subtitle">Custodian</h3>
+                        </a>
+                        <p class="post-meta">
+                            BYU, Provo UT, 2021 - Present
+                        </p>
+                        <a>
+                            <h3 class="post-subtitle">Market Grille Server</h3>
+                        </a>
+                        <p class="post-meta">
+                            Hy-Vee, Maple Grove, MN 2021 - 2022
+                        </p>
+                        <a>
+                            <h3 class="post-subtitle">Project Assistant</h3>
+                        </a>
+                        <p class="post-meta">
+                            BYU, Physics and Astronomy Department, Provo, UT 2019 - 2020
+                        </p>
+                        <li class="post-subtitle">
+                            PLC Programming
+                            <ul>
+                                Designed and built PLC controlled system that launches metal
+                                component at high speeds using concentrated magnetic fields
+                                <br>
+                                Constructed PLC based cooling system to ensure user safety and 
+                                prevent equipment burnout
+                            </ul>
+                        </li>
+                        <li>
+                            Repaired high voltage equipment
+                        </li>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a>
                             <h2 class="post-title">Skills</h2>
-                            <h3 class="post-subtitle">Data Analytics, Web Development</h3>
+                            <h3 class="post-subtitle">Data Analytics</h3>
                         </a>
-                       
-                    
+                        <ol>
+                            <li>
+                                Excel
+                                <ul>
+                                    <li>VBA Macros</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Tableau
+                                <ul>
+                                    <li>Data Visualization</li>
+                                    <li>Data Forecasting</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Sequel (SQL)
+                                <ul>
+                                    <li>Batch Data Analysis</li>
+                                </ul>
+                            </li>
+                        </ol>
+                            <a>
+                                <h3 class="post-subtitle">Programming & Automation</h3>
+                            </a>
+                        <ol>
+                            <li>
+                                PLC
+                                <ul>
+                                    <li> RsLogix5000</li>
+                                </ul>
+                                <ul>
+                                    <li> ClickPLC</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Computer Languages
+                                <ul>
+                                    <li> C++</li>
+                                </ul>
+                                <ul>
+                                    <li>CSS/HTML</li>
+                                </ul>
+                            </li>
+                            <li>Robotics
+                                <ul>
+                                    <li>Kuka Kore</li>
+                                </ul>
+                                <ul>
+                                    <li>Univeral Robot</li>
+                                </ul>
+                            </li>  
+                        </ol>
         </div>
         <!-- Footer-->
         <footer class="border-top">
@@ -94,23 +198,23 @@
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <ul class="list-inline text-center">
                             <li class="list-inline-item">
-                                <a href="#!">
+                                <a href="https://www.linkedin.com/in/ashley-peterso/">
                                     <span class="fa-stack fa-lg">
                                         <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                        <i class="fa-brands fa-linkedin-in fa-stack-1x fa-inverse"></i>
+                                    </span> 
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fa-brands fa-youtube fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
+                                <a href="https://github.com/AshWithGithub">
                                     <span class="fa-stack fa-lg">
                                         <i class="fas fa-circle fa-stack-2x"></i>
                                         <i class="fab fa-github fa-stack-1x fa-inverse"></i>
@@ -118,7 +222,7 @@
                                 </a>
                             </li>
                         </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Ashley Peterson 2022</div>
+                        <div class="small text-center text-muted fst-italic">Find me on other platforms</div>
                     </div>
                 </div>
             </div>
@@ -127,5 +231,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+
     </body>
 </html>
